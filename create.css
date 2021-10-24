@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0%;
+    border: 0;
+}
+
+.main {
+    background-image: url('https://images.pexels.com/photos/1819650/pexels-photo-1819650.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: none;
+    overflow: -moz-hidden-unscrollable;
+    position: fixed;
+}
+
+.card {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background: rgba(100, 175, 80, 0.5);
+    border-radius: 10px;
+    left: 35%;
+    top: 20%;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.avatar .img {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -110px;
+    left: 34%;
+}
+
+.content h1 {
+    color: whitesmoke;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    left: 27%;
+    top: 40px;
+}
+
+.form form {
+    position: relative;
+    top: -50px;
+    left: 2%;
+    white-space: pre-wrap;
+}
+
+.form input {
+    padding: 10px 20px;
+    outline: none;
+    background: transparent;
+    color: whitesmoke;
+    border-radius: 5px;
+    border-bottom: 2px solid gold;
+}
+
+.form form :hover {
+    background: blue;
+    height: -1px;
+    border: none;
+    width: 50%;
+}
+
+.button {
+    background: gold;
+    opacity: 100;
+    padding: 5px 30px;
+    border-radius: 5px;
+    position: relative;
+    outline: none;
+    bottom: 38px;
+    border: 2px solid gold;
+    font-style: oblique;
+    left: 60%;
+    text-transform: capitalize;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: black;
+    box-shadow: 0 0 10px 5px gold;
+    background: gold;
+    font-weight: 500;
+    border: none;
+}
+
+.btn {
+    background: gold;
+    opacity: 100;
+    padding: 5px 25px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    position: relative;
+    top: -10px;
+    outline: none;
+    border: 2px solid gold;
+    left: 26%;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: black;
+    box-shadow: 0 0 10px 5px gold;
+    background: gold;
+    font-weight: 500;
+    border: none;
+}
